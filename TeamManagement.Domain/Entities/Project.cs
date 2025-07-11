@@ -1,6 +1,8 @@
-﻿namespace TeamManagement.Domain.Entities;
+﻿using TeamManagement.Domain.SeedWork;
 
-public class Project
+namespace TeamManagement.Domain.Entities;
+
+public class Project : Entity
 {
     public Project(int name, int teamLeadId, string[] assignedTeamMemberIds)
     {
